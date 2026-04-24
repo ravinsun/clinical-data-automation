@@ -1,0 +1,22 @@
+# SAS work files
+*.log
+*.lst
+*.sas7bdat
+*.sas7bcat
+*.sas7bindx
+*.xpt
+*.sas7bvew
+
+# SAS temp/work
+work/
+saswork/
+sasmacr/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Sensitive data — never commit
+*_specs.xlsx
+*patient*
+*subject*
